@@ -1219,6 +1219,13 @@ input[type="radio"] + label:before {
   .image img {
     border-radius: 0.375em;
     display: block; }
+  .image.contain img {
+    height: 256px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block; }
   .image.left, .image.right {
     max-width: 40%; }
     .image.left img, .image.right img {
