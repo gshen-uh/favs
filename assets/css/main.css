@@ -2063,7 +2063,7 @@ button,
       text-indent: 7.25em;
       width: 7.25em; }
       #sidebar .toggle:before {
-        color: #202258;
+        color: rgba(249, 93, 155, 0.75);
         margin-left: -0.0625em;
         margin-top: -0.25em;
         font-size: 1.1rem;
